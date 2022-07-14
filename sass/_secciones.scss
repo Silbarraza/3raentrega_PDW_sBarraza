@@ -1,0 +1,363 @@
+//Index
+//Sección intro
+.introi {
+    height: 315px;
+    width: auto;
+    background-image: url(..//img/intro/portada_intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+    &__items {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+        p{
+            font: $fuente-subtitle-intro;
+        }
+    }
+}
+
+//Media queries
+
+@media (max-width:$tablet) {
+
+    .introi {
+        max-height: 210px;
+
+        .introi__items h1 {
+            font-size: 40px;       
+        }
+        
+        .introi__items p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width:$mobile) {
+    .introi {
+        max-height: 160px;
+
+        .introi__items h1 {
+            font-size: 38px;       
+        }
+        
+        .introi__items p {
+            font-size: 18px;
+        }
+    }
+
+}
+
+/* Sección 1 Productos */
+.seccion1 {
+    background-color: map-get($colores, blanco);
+
+    &__title {
+        font: $fuente-acento-seccion; 
+    }
+
+    .btn--seccion {
+        @include btn;
+    }
+}
+/* Seccion 2 Equipo */
+.seccion2 {
+    background-color: map-get($colores, blanco);
+
+    &__title {
+        font: $fuente-acento-seccion;
+    }
+
+    .btn--seccion {
+        @include btn;
+        
+    }
+}
+
+/* Seccion 3 Ubicacion e info */
+.seccion3 {
+    background-color: map-get($colores, blanco);
+
+    &__foto {
+        width: 100%;
+        height: auto;
+    }
+
+    &__title {
+        font: $fuente-acento-seccion;
+    }
+    .btn--seccion {
+        @include btn;
+    }
+}
+
+//page01 nosotros
+.introi--page1 {
+    @extend .introi;
+
+    .intro__itemspg1 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }       
+}
+
+//Media queries
+
+@media (max-width:$tablet) {
+    
+    .introi--page1 {
+        max-height: 210px;
+
+        .intro__itemspg1 h1 {
+            font-size: 40px;       
+        }
+    }
+}
+
+@media (max-width:$mobile) {
+    .introi--page1 {
+        max-height: 160px;
+
+        .intro__itemspg1 h1 {
+            font-size: 38px;       
+        }
+    }
+}
+
+.seccion1__pg1 {
+    background-color: map-get($colores, blanco);
+
+    .pg1__title {
+        font: $fuente-acento-seccion;
+    }
+    .pg1__foto1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.seccion2__pg1 {
+    background-color: map-get($colores, blanco);
+
+    .pg1__title2 {
+        font: $fuente-acento-seccion;
+    
+    }
+}
+
+
+//page02 productos
+.introi--page2 {
+    @extend .introi;
+
+    .intro__itemspg2 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+//Media queries
+
+@media (max-width:$tablet) {
+    
+    .introi--page2 {
+        max-height: 210px;
+
+        .intro__itemspg2 h1 {
+            font-size: 40px;       
+        }
+    }
+}
+
+@media (max-width:$mobile) {
+    .introi--page2 {
+        max-height: 160px;
+
+        .intro__itemspg2 h1 {
+            font-size: 38px;       
+        }
+    }
+}
+
+.stockpg2 {
+    background-color: map-get($colores, blanco);
+
+    .pg2__title {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg2__item {
+        filter: grayscale(1);
+        &:hover {
+            filter: none;
+        }
+    }
+
+    .pg2__btn {
+        @include btn;
+    }
+}
+
+//Media queries tablet
+
+@media (max-width:$tablet) {
+    .stockpg2 .pg2__item {
+        filter: none;
+    }
+}
+
+//page03 servicios
+.introi--page3 {
+    @extend .introi;
+
+    .intro__itemspg3 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+//Media queries
+
+@media (max-width:768px) {
+    
+    .introi--page3 {
+        max-height: 210px;
+
+        .intro__itemspg3 h1 {
+            font-size: 40px;       
+        }
+    }
+}
+
+@media (max-width:$mobile) {
+    .introi--page3 {
+        max-height: 160px;
+
+        .intro__itemspg3 h1 {
+            font-size: 38px;       
+        }
+    }
+}
+
+.seccion__pg3 {
+    background-color: map-get($colores, blanco);
+
+    .pg3__title {
+        font: $fuente-acento-seccion;
+    }
+
+}
+
+.contactus__pg3 {
+    background-color: map-get($colores, secundario);
+}
+
+.pg3__btn {
+    @include btn;
+    width: 150px;
+}
+
+/* Animación */
+@keyframes efecto {
+    0% {
+        background-color:map-get($colores, hover);
+    }
+    50% {
+        background-color: map-get($colores, 1rio-complementario);
+        transition: ease-in-out;
+    }
+    100% {
+        background-color:map-get($colores, 2rio-complemetario2);
+    }
+}
+
+.contactus__pg3 {
+    background-color:map-get($colores, 2rio-complemetario1);
+    animation: efecto 1s linear 0s infinite alternate;
+}
+
+
+//page03 contacto
+.introi--page4 {
+    @extend .introi;
+
+    .intro__itemspg4 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+//Media queries
+
+@media (max-width:768px) {
+    
+    .introi--page4 {
+        max-height: 210px;
+
+        .intro__itemspg4 h1 {
+            font-size: 40px;       
+        }
+    }
+}
+
+@media (max-width:$mobile) {
+    .introi--page4 {
+        max-height: 160px;
+
+        .intro__itemspg4 h1 {
+            font-size: 38px;       
+        }
+    }
+}
+
+.contactus__pg4 {
+    background-color: map-get($colores, blanco);
+
+    .pg4__title {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg4__subtitle {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg4__btn {
+        @include btn;
+    }
+
+}
+
+.map__pg4 {
+
+    background-color: map-get($colores, blanco);
+
+    .pg4__title {
+        font: $fuente-acento-seccion;
+    }
+
+    
+
+}
