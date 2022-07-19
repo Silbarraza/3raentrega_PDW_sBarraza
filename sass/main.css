@@ -9,16 +9,14 @@
 #base {
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-  /* Header */
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
   /* Animación */
-  /* Footer */
 }
 #base .header {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base .header .mi-logo, #base__pg04 .footer #base .header .mi-logo--footer, #base__pg03 .footer #base .header .mi-logo--footer, #base__pg02 .footer #base .header .mi-logo--footer, #base__pg01 .footer #base .header .mi-logo--footer, #base .header .footer .mi-logo--footer, #base .footer .header .mi-logo--footer {
   width: 100px;
@@ -354,7 +352,7 @@
 }
 #base .footer {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base .footer .mi-logo--footer {
   width: 110px;
@@ -370,16 +368,14 @@
 #base__pg01 {
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-  /* Header */
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
   /* Animación */
-  /* Footer */
 }
 #base__pg01 .header {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg01 .header .mi-logo, #base__pg04 .footer #base__pg01 .header .mi-logo--footer, #base__pg03 .footer #base__pg01 .header .mi-logo--footer, #base__pg02 .footer #base__pg01 .header .mi-logo--footer, #base__pg01 .header .footer .mi-logo--footer, #base__pg01 .footer .header .mi-logo--footer, #base .footer #base__pg01 .header .mi-logo--footer {
   width: 100px;
@@ -703,7 +699,7 @@
 }
 #base__pg01 .footer {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg01 .footer .mi-logo--footer {
   width: 110px;
@@ -719,16 +715,14 @@
 #base__pg02 {
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-  /* Header */
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
   /* Animación */
-  /* Footer */
 }
 #base__pg02 .header {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg02 .header .mi-logo, #base__pg04 .footer #base__pg02 .header .mi-logo--footer, #base__pg03 .footer #base__pg02 .header .mi-logo--footer, #base__pg02 .header .footer .mi-logo--footer, #base__pg02 .footer .header .mi-logo--footer, #base .footer #base__pg02 .header .mi-logo--footer, #base__pg01 .footer #base__pg02 .header .mi-logo--footer {
   width: 100px;
@@ -1052,7 +1046,7 @@
 }
 #base__pg02 .footer {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg02 .footer .mi-logo--footer {
   width: 110px;
@@ -1068,16 +1062,14 @@
 #base__pg03 {
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-  /* Header */
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
   /* Animación */
-  /* Footer */
 }
 #base__pg03 .header {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg03 .header .mi-logo, #base__pg04 .footer #base__pg03 .header .mi-logo--footer, #base__pg03 .header .footer .mi-logo--footer, #base__pg03 .footer .header .mi-logo--footer, #base .footer #base__pg03 .header .mi-logo--footer, #base__pg01 .footer #base__pg03 .header .mi-logo--footer, #base__pg02 .footer #base__pg03 .header .mi-logo--footer {
   width: 100px;
@@ -1401,7 +1393,7 @@
 }
 #base__pg03 .footer {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg03 .footer .mi-logo--footer {
   width: 110px;
@@ -1417,16 +1409,14 @@
 #base__pg04 {
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-  /* Header */
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
   /* Animación */
-  /* Footer */
 }
 #base__pg04 .header {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg04 .header .mi-logo, #base__pg04 .header .footer .mi-logo--footer, #base__pg04 .footer .header .mi-logo--footer, #base .footer #base__pg04 .header .mi-logo--footer, #base__pg01 .footer #base__pg04 .header .mi-logo--footer, #base__pg02 .footer #base__pg04 .header .mi-logo--footer, #base__pg03 .footer #base__pg04 .header .mi-logo--footer {
   width: 100px;
@@ -1750,7 +1740,7 @@
 }
 #base__pg04 .footer {
   background-color: #DF9C16;
-  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 30%, #FFD600 100%);
 }
 #base__pg04 .footer .mi-logo--footer {
   width: 110px;
